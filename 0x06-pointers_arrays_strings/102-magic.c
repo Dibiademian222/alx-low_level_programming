@@ -3,8 +3,8 @@
 /**
 * main - Entry point
 *
-* Description: 'the program's description'
-* @parameter: describe the parameter
+* 0x06-pointers_arrays_strings
+* describe the parameter
 *
 * Return: Always 0 (Success)
 */

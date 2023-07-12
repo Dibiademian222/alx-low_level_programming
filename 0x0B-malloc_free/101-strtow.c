@@ -40,7 +40,7 @@ len++;
 words = count_word(str);
 if (words == 0)
 return (NULL);
-matrix = (char **) malloc(sizeof(char *) * (words + 1))
+matrix = (char **) malloc(sizeof(char *) * (words + 1));
 if (matrix == NULL)
 return (NULL);
 for (i = 0; i <= len; i++)
@@ -50,7 +50,7 @@ if (str[i] == ' ' || str[i] == '\0')
 if (c)
 {
 end = i;
-tmp = (char *) malloc(sizeof(char) * (c + 1))
+tmp = (char *) malloc(sizeof(char) * (c + 1));
 if (tmp == NULL)
 return (NULL);
 while (start < end)

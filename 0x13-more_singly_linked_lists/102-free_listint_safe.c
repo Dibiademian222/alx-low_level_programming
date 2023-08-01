@@ -35,6 +35,6 @@ break;
 }
 }
 *h = NULL;
-return (0);
+return (len);
 }
 
